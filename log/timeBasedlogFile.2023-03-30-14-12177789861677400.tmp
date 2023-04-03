@@ -1,0 +1,34 @@
+290 [main] INFO  TestBase - Web driver manager initialization
+637 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 111.0.5563.64 (resolved driver for Chrome 111)
+654 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\mdziewa\.cache\selenium\chromedriver\win32\111.0.5563.64\chromedriver.exe
+697 [main] INFO  TestBase - Initializing chrome webdriver
+703 [main] INFO  TestBase - Adding options:
+--remote-allow-origins=*
+download.prompt_for_download:false
+download.default_directory:C:\Users\mdziewa\IdeaProjects\Selenium7.1\target
+6596 [main] INFO  FormTest - Expected test results:
+	firstName='Michal'
+	, lastName='Nazwany'
+	, age=23
+	, submitResult='Form send with success'
+	, email='jegomail@.pl'
+	, gender=Male
+	, experience='4'
+	, profession=ManualTester
+	, continent='Africa'
+	, seleniumCommands=[Wait Commands, Navigation Commands, WebElement Commands]
+	
+6600 [main] INFO  FormTest - Verifying all tested fields
+6601 [main] INFO  FormTest - Verifying first name
+6670 [main] INFO  FormTest - Success
+6670 [main] INFO  FormTest - Verifying last name
+6693 [main] INFO  FormTest - Success
+6693 [main] INFO  FormTest - Verifying email
+6721 [main] INFO  FormTest - Success
+6721 [main] INFO  FormTest - Verifying gender
+6742 [main] INFO  FormTest - Success
+6742 [main] INFO  FormTest - Verifying age
+6791 [main] INFO  FormTest - Success
+6791 [main] INFO  FormTest - Verifying experience
+6820 [main] INFO  FormTest - Success
+6820 [main] INFO  FormTest - Verifying profession
